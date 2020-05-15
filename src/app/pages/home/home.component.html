@@ -1,0 +1,90 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1" style="width:300px">
+        <img class="card-img-top" src="assets/img/img_avatar6.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Maggie</h4>
+          <p class="card-text"> Maggie is an angular developer .</p>
+          <a routerLinkActive="list-item-active" type="submit" (click)="dropDown1()" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1" style="width:300px">
+        <img class="card-img-top" src="assets/img/img_avatar1.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">John</h4>
+
+          <p class="card-text">John Doe is an architect and engineer.</p>
+          <a routerLinkActive="list-item-active" type="submit" (click)="dropDown()" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1 " style="width:300px">
+        <img class="card-img-top" src="assets/img/img_avatar6.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Nancy</h4>
+          <p class="card-text">Nancy is an full stack developer.</p>
+          <a routerLinkActive="list-item-active" type="submit" (click)="dropDown2()" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 " *ngIf="displayData">
+      <div class="card drop"  >
+        <div class="card-body"><h2 class="card-title">Details of John</h2>
+
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 " *ngIf="displayData1">
+    <div class="card drop "  >
+      <div class="card-body"><h2 class="card-title">Details of Maggie</h2>
+
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-12 " *ngIf="displayData2">
+    <div class="card drop"  >
+      <div class="card-body"><h2 class="card-title">Details of Nancy</h2>
+
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+    </div>
+  </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1" style="width:300px">
+        <img class="card-img-top" src="assets/img/img_avatar1.png" alt="Card image" >
+        <div class="card-body">
+          <h4 class="card-title">William</h4>
+          <p class="card-text"> William is a senior java developer </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1" >
+        <img class="card-img-top" src="assets/img/img_avatar6.png" alt="Card image" >
+        <div class="card-body">
+          <h4 class="card-title">Rose</h4>
+
+          <p class="card-text"> Rose is a business analyst.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card card-1" >
+        <img class="card-img-top" src="assets/img/img_avatar1.png" alt="Card image" >
+        <div class="card-body">
+          <h4 class="card-title">Stephen</h4>
+          <p class="card-text"> Stephen is an system Analyst</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
